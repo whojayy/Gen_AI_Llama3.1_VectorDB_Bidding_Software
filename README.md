@@ -17,8 +17,6 @@ A comprehensive AI-powered tool for job seekers that automates LinkedIn job sear
 - [Components](#components)
 - [Workflow](#workflow)
 - [Future Improvements](#future-improvements)
-- [Contributing](#contributing)
-- [License](#license)
 
 
 ## Overview
@@ -44,7 +42,12 @@ The system consists of three main components that work together:
 1. **Job Tracker**: Scrapes LinkedIn for job listings, extracts structured data, and manages application status
 2. **Vector Database**: Stores portfolio examples and project descriptions for semantic retrieval
 3. **Cold Email Generator**: Creates personalized emails by matching job requirements with relevant portfolio examples
+![Working](app-working-flow/Link_Format.jpeg)
 
+
+### Architecture
+
+![System Architecture](app-working-flow/Technology_Stack_Flowchart.png)
 
 
 
@@ -147,7 +150,7 @@ python job_tracker_gui.py
 3. Select job type and age filter
 4. Click "Search Jobs"
 
-
+![Search Job](app-working-flow/Web_Scraping.jpeg)
 
 3. In the "Track Applications" tab:
 
@@ -156,7 +159,7 @@ python job_tracker_gui.py
 3. Access job details and links
 
 
-
+![Search Job](app-working-flow/Scraping_Resuts.jpeg)
 
 
 
@@ -184,8 +187,11 @@ python cold_email_gui.py
 5. Click "Generate Email" to create a personalized cold email
 6. Copy or save the generated email
 
+#### JSON Format
+![Search Job](app-working-flow/JSON_Format.jpeg)
 
-
+#### Link Format
+![Search Job](app-working-flow/LINK_Format.jpeg)
 
 
 
@@ -289,7 +295,7 @@ A command-line utility for:
 
 
 
-
+![WorkFlow](app-working-flow/detailed_work_flow.png)
 
 ## Future Improvements
 
