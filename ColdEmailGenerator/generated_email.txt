@@ -1,0 +1,22 @@
+Subject: Unlock End-to-End Machine Learning Solutions with TechVida
+
+Dear Hiring Manager,
+
+I came across the job description for a Machine Learning Engineer at Sobeys, and I'm excited to introduce TechVida as a potential partner to help you design, develop, and deploy end-to-end machine learning solutions from data ingestion to model production.
+
+At TechVida, we specialize in facilitating seamless business process integration through automated tools. Our team of experts has empowered numerous enterprises with tailored solutions, fostering scalability, process optimization, cost reduction, and heightened overall efficiency.
+
+Our capabilities align perfectly with your requirements, and I'd like to highlight a few relevant projects from our portfolio:
+
+- **Machine Learning with TensorFlow**: Explore our Streamlit app at [https://ml-tensorflow-portfolio.streamlit.app](https://ml-tensorflow-portfolio.streamlit.app) to see how we've applied ML to real-world problems.
+- **DevOps Expertise**: Visit our GitLab portfolio at [https://devops-portfolio.gitlab.io](https://devops-portfolio.gitlab.io) to learn more about our DevOps tools and CI/CD pipelines.
+- **Cloud-based MLOPs**: Discover how we've maintained MLOPs pipelines and architectures on cloud platforms like Azure, GCP, and AWS.
+
+Our team's proficiency in Python, ML libraries (scikit-learn, XG Boost, TensorFlow, PyTorch, Lang Chain/Lang Graph), data orchestration tools (Airflow), and DevOps tools (Azure DevOps, Git, CI/CD, package versioning) makes us an ideal partner for your project.
+
+If you're interested in discussing how TechVida can help you achieve your machine learning goals, I'd be happy to schedule a call.
+
+Best regards,
+
+Deep Kothari
+CEO, TechVida

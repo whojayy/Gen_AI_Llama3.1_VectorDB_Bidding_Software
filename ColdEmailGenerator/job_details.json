@@ -1,0 +1,16 @@
+{
+  "role": "Machine Learning Engineer",
+  "company": "Sobeys",
+  "location": "Toronto, Ontario, Canada",
+  "experience": "5+ years of hands-on experience in ML Engineering and Data Engineering",
+  "skills": [
+    "Strong problem-solving and communication skills",
+    "Proficiency in Python (Ability to understand and write Object Oriented code) - and ML libraries (scikit-learn, XG Boost, TensorFlow, PyTorch, Lang Chain/Lang Graph)",
+    "Experience with data orchestration tools (Airflow preferred)",
+    "Working knowledge on DevOps tools (Azure DevOps, Git, CI/CD, package versioning, etc)",
+    "Proficiency in SQL and working with relational & NoSQL databases",
+    "Working knowledge in maintaining MLOPs pipelines and architectures on cloud. (Azure/GCP/AWS)",
+    "Familiarity with feature stores and model registries"
+  ],
+  "description": "Design, develop, and deploy end-to-end machine learning solutions from data ingestion to model production."
+}

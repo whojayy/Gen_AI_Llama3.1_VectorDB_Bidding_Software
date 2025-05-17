@@ -1,0 +1,21 @@
+Index,Tech Stack,Portfolio URL
+0,"React, Node.js, MongoDB",https://jsmith/react-portfolio
+1,"Angular, .NET, SQL Server",https://angular-dev-portfolio.netlify.app
+2,"Vue.js, Ruby on Rails, PostgreSQL",https://vue-rails-portfolio.vercel.app
+3,"Python, Django, MySQL",https://django-portfolio.herokuapp.com
+4,"Java, Spring Boot, Oracle",https://java-dev-portfolio.netlify.app
+5,"Flutter, Firebase, GraphQL",https://flutter-portfolio-showcase.web.app
+6,"WordPress, PHP, MySQL",https://wordpress-portfolio.digitalocean.app
+7,"Magento, PHP, MySQL",https://magento-developer.github.io
+8,"React Native, Node.js, MongoDB",https://reactnative-portfolio.vercel.app
+9,"iOS, Swift, Core Data",https://swift-ios-dev.github.io/portfolio
+10,"Android, Java, Room Persistence",https://android-portfolio.netlify.app
+11,"Kotlin, Android, Firebase",https://kotlin-android-dev.web.app
+12,"Android TV, Kotlin, Android NDK",https://androidtv-portfolio.vercel.app
+13,"iOS, Swift, ARKit",https://ar-ios-portfolio.netlify.app
+14,"Cross-platform, Xamarin, Azure",https://xamarin-portfolio.azurewebsites.net
+15,"Backend, Kotlin, Spring Boot",https://kotlin-backend-dev.herokuapp.com
+16,"Frontend, TypeScript, Angular",https://typescript-angular-portfolio.vercel.app
+17,"Full-stack, JavaScript, Express.js",https://fullstack-js-portfolio.onrender.com
+18,"Machine Learning, Python, TensorFlow",https://ml-tensorflow-portfolio.streamlit.app
+19,"DevOps, Jenkins, Docker",https://devops-portfolio.gitlab.io
