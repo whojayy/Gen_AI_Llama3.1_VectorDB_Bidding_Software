@@ -191,7 +191,7 @@ python cold_email_gui.py
 ![Search Job](app-working-flow/JSON_Format.jpeg)
 
 #### Link Format
-![Search Job](app-working-flow/LINK_Format.jpeg)
+![Working](app-working-flow/Link_Format.jpeg)
 
 
 
