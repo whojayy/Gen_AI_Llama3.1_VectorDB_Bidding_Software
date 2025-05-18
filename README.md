@@ -42,12 +42,12 @@ The system consists of three main components that work together:
 1. **Job Tracker**: Scrapes LinkedIn for job listings, extracts structured data, and manages application status
 2. **Vector Database**: Stores portfolio examples and project descriptions for semantic retrieval
 3. **Cold Email Generator**: Creates personalized emails by matching job requirements with relevant portfolio examples
-![Working](app-working-flow/Link_Format.jpeg)
+![Working](app-working-flow/Link_Format.jpg)
 
 
 ### Architecture
 
-![System Architecture](app-working-flow/Technology_Stack_Flowchart.png)
+![System Architecture](app-working-flow/detailed_work_flow.png)
 
 
 
@@ -150,7 +150,7 @@ python job_tracker_gui.py
 3. Select job type and age filter
 4. Click "Search Jobs"
 
-![Search Job](app-working-flow/Web_Scraping.jpeg)
+![Search Job](app-working-flow/Web_Scraping.jpg)
 
 3. In the "Track Applications" tab:
 
@@ -159,7 +159,7 @@ python job_tracker_gui.py
 3. Access job details and links
 
 
-![Search Job](app-working-flow/Scraping_Resuts.jpeg)
+![Search Job](app-working-flow/Scraping_Resuts.jpg)
 
 
 
@@ -188,10 +188,10 @@ python cold_email_gui.py
 6. Copy or save the generated email
 
 #### JSON Format
-![Search Job](app-working-flow/JSON_Format.jpeg)
+![Search Job](app-working-flow/JSON_Format.jpg)
 
 #### Link Format
-![Working](app-working-flow/Link_Format.jpeg)
+![Working](app-working-flow/Link_Format.jpg)
 
 
 
@@ -293,9 +293,9 @@ A command-line utility for:
 2. Track deadlines and follow-ups
 3. Manage application links and resume versions
 
+![System Architecture](app-working-flow/Technology_Stack_Flowchart.png)
 
 
-![WorkFlow](app-working-flow/detailed_work_flow.png)
 
 ## Future Improvements
 
