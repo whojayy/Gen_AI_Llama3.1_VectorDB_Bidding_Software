@@ -150,7 +150,7 @@ python job_tracker_gui.py
 3. Select job type and age filter
 4. Click "Search Jobs"
 
-![Search Job](app-working-flow/Web_Scraping.jpg)
+![Search Job](app-working-flow/Web_Scraping.png)
 
 3. In the "Track Applications" tab:
 
