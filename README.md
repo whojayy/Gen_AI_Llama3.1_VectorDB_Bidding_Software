@@ -42,13 +42,12 @@ The system consists of three main components that work together:
 1. **Job Tracker**: Scrapes LinkedIn for job listings, extracts structured data, and manages application status
 2. **Vector Database**: Stores portfolio examples and project descriptions for semantic retrieval
 3. **Cold Email Generator**: Creates personalized emails by matching job requirements with relevant portfolio examples
-
 ![Working](app-working-flow/Link_Format.jpeg)
 
 
 ### Architecture
 
-![WorkFlow](app-working-flow/detailed_work_flow.png)
+![System Architecture](app-working-flow/Technology_Stack_Flowchart.png)
 
 
 
@@ -295,8 +294,8 @@ A command-line utility for:
 3. Manage application links and resume versions
 
 
-![Working](app-working-flow/Link_Format.jpeg)
 
+![WorkFlow](app-working-flow/detailed_work_flow.png)
 
 ## Future Improvements
 
