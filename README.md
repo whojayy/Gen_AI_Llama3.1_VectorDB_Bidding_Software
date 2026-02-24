@@ -45,13 +45,6 @@ The system consists of three main components that work together:
 ![Working](app-working-flow/Link_Format.jpg)
 
 
-### Architecture
-
-![System Architecture](app-working-flow/detailed_work_flow.png)
-
-
-
-
 
 ## Technologies Used
 
