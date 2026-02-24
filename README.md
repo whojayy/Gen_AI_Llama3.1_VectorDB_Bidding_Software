@@ -1,6 +1,6 @@
 ### Gen_AI_Llama3.1_VectorDB_Bidding_Tool
 
-A comprehensive AI-powered tool for job seekers that automates LinkedIn job searching, tracking, and personalized cold email generation using Large Language Models and vector databases.
+A comprehensive AI-powered tool for job seekers that automates client searching, tracking, and personalized cold email generation using Large Language Models and vector databases.
 
 
 
