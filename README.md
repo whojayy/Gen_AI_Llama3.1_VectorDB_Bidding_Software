@@ -21,15 +21,15 @@ A comprehensive AI-powered tool for job seekers that automates client searching,
 
 ## Overview
 
-The Gen_AI_Llama3.1_VectorDB_Bidding_Tool is an end-to-end solution designed to streamline the job application process. It combines web scraping, data processing, vector databases, and state-of-the-art language models to help job seekers efficiently find relevant positions, track their applications, and generate personalized cold emails to potential employers.
+The Gen_AI_Llama3.1_VectorDB_Bidding_Tool is an end-to-end solution designed to streamline the jclient search process. It combines web scraping, data processing, vector databases, and state-of-the-art language models to help job seekers efficiently find relevant positions, track their applications, and generate personalized cold emails to potential employers.
 
-This tool is particularly useful for consultants and freelancers looking to bid on projects or professionals seeking new job opportunities, as it automates much of the tedious work involved in the job search and application process.
+This tool is particularly useful for consultants and freelancers looking to bid on projects or professionals seeking new clients, as it automates much of the tedious work involved in the client search and application process.
 
 ## Features
 
-- **LinkedIn Job Scraping**: Automatically search and extract job listings from LinkedIn based on customizable criteria
+- **LinkedIn Scraping**: Automatically search and extract company listings from LinkedIn based on customizable criteria
 - **Job Data Extraction**: Parse and structure job details including role, company, location, skills, and description
-- **Application Tracking**: Manage and monitor the status of job applications through an intuitive GUI
+- **Client Tracking**: Manage and monitor the status of client applications through an intuitive GUI
 - **Vector Database Integration**: Store and query portfolio examples using ChromaDB for semantic similarity matching
 - **AI-Powered Email Generation**: Create personalized cold emails using Llama 3.1 (via Groq) that match job requirements with relevant portfolio examples
 - **Dark Mode Interface**: User-friendly dark-themed GUI for comfortable use in various lighting conditions
@@ -39,9 +39,9 @@ This tool is particularly useful for consultants and freelancers looking to bid 
 
 The system consists of three main components that work together:
 
-1. **Job Tracker**: Scrapes LinkedIn for job listings, extracts structured data, and manages application status
+1. **Client Tracker**: Scrapes LinkedIn for listings, extracts structured data, and manages application status
 2. **Vector Database**: Stores portfolio examples and project descriptions for semantic retrieval
-3. **Cold Email Generator**: Creates personalized emails by matching job requirements with relevant portfolio examples
+3. **Cold Email Generator**: Creates personalized emails by matching client requirements with relevant portfolio examples
 ![Working](app-working-flow/Link_Format.jpg)
 
 
@@ -195,7 +195,7 @@ python cold_email_gui.py
 
 
 
-### Update Job Status (CLI)
+### Update Client Status (CLI)
 
 For quick updates without the GUI:
 
@@ -203,105 +203,3 @@ For quick updates without the GUI:
 python update_job_status.py
 ```
 
-## Components
-
-### 1. LinkedIn Job Tracker (`linkedin_job_tracker.py`)
-
-This component handles:
-
-- Searching LinkedIn for job listings based on criteria
-- Extracting detailed job information
-- Saving structured job data to CSV files
-
-
-Key functions:
-
-- `search_jobs()`: Collects job IDs from LinkedIn search results
-- `extract_job_details()`: Parses detailed information for each job
-- `save_to_csv()`: Exports job data to CSV format
-
-
-### 2. Job Tracker GUI (`job_tracker_gui.py`)
-
-A graphical interface for:
-
-- Searching and filtering jobs
-- Tracking application status
-- Managing job application details
-
-
-Key classes:
-
-- `JobTrackerApp`: Main application class with search and tracking tabs
-
-
-### 3. Cold Email Generator (`cold_email_gui.py`)
-
-This component:
-
-- Extracts job details from LinkedIn URLs or JSON files
-- Queries ChromaDB for relevant portfolio examples
-- Generates personalized cold emails using Llama 3.1 via Groq
-
-
-Key features:
-
-- Dark-themed UI for better visibility
-- API key management
-- Email generation with relevant portfolio links
-- Copy and save functionality
-
-
-### 4. Update Job Status (`update_job_status.py`)
-
-A command-line utility for:
-
-- Updating job application status
-- Adding notes and application dates
-- Listing jobs filtered by status
-
-
-## Workflow
-
-1. **Job Discovery**:
-
-1. Search LinkedIn for relevant job listings
-2. Extract and structure job details
-3. Save to CSV for tracking
-
-
-
-2. **Portfolio Matching**:
-
-1. Job skills are used to query ChromaDB
-2. Semantically similar portfolio examples are retrieved
-3. Relevant links are collected for the email
-
-
-
-3. **Email Generation**:
-
-1. Job details and portfolio links are sent to Llama 3.1
-2. A personalized cold email is generated highlighting relevant experience
-3. The email is formatted as if from "Deep Kothari, CEO at TechVida"
-
-
-
-4. **Application Tracking**:
-
-1. Update application status (Applied, Interview, etc.)
-2. Track deadlines and follow-ups
-3. Manage application links and resume versions
-
-![System Architecture](app-working-flow/Technology_Stack_Flowchart.png)
-
-
-
-## Future Improvements
-
-- Integration with email clients for direct sending
-- Automated follow-up email generation
-- Sentiment analysis of job descriptions
-- Resume tailoring suggestions based on job requirements
-- Integration with more job boards beyond LinkedIn
-- Mobile application version
